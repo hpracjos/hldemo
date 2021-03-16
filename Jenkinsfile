@@ -8,7 +8,7 @@ pipeline {
         stage('Test') {
             steps {
                 checkout scm
-                sh '''
+                bat '''
                   docker-compose up hlcucumber
                 '''
             }
