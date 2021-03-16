@@ -1,6 +1,7 @@
 pipeline {
     environment {
-         PATH = "$PATH:C:/Program Files/Docker/Docker/resources/bin"
+        PATH = "$PATH:C:\Program Files\Git\usr\bin"
+   
     }
     agent any
     stages {
