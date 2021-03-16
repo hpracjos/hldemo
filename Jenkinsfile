@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        PATH = "$PATH:C:\Program Files\Git\usr\bin"
+        PATH = "$PATH:C:/Program Files/Git/usr/bin"
    
     }
     agent any
